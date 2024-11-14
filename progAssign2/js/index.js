@@ -1,8 +1,10 @@
-// const imgA = document.getElementById("part-A");
-const imgs = document.getElementByTag("img");
-var display = 1;
 
-function showImage(){
-    
+function showImage(letter) {
+  document.getElementById(`part-${letter}`).style.display = "block";
+  document.getElementById(`hidden-btn-${letter}`).style.display = "block";
 }
 
+function hideImage(letter) {
+  document.getElementById(`part-${letter}`).style.display = "none";
+  document.getElementById(`hidden-btn-${letter}`).style.display = "none";
+}
