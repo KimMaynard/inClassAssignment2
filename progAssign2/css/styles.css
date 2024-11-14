@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#welcome-header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#instructions {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+/* container1 */
+#main #container-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#main #container-1 #hidden-btn-A {
+  padding: 10px;
+}
+
+#main #container-1 #hidden-btn-A #ref-A1 {
+  text-decoration: none;
+}
+
+#main #container-1 #btn-A {
+  padding: 15px;
+}
+
+#main #container-1 #btn-A #ref-A2 {
+  text-decoration: none;
+}
+
+/* container2 */
+
+#main #container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#main #container-2 #hidden-btn-B {
+  padding: 10px;
+}
+
+#main #container-2 #hidden-btn-B #ref-B1 {
+  text-decoration: none;
+}
+
+#main #container-2 #btn-B {
+  padding: 15px;
+}
+
+#main #container-2 #btn-B #ref-B2 {
+  text-decoration: none;
+}
+
+/* container3 */
+#main #container-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#main #container-3 #hidden-btn-C {
+  padding: 10px;
+}
+
+#main #container-3 #hidden-btn-C #ref-C1 {
+  text-decoration: none;
+}
+
+#main #container-3 #btn-C {
+  padding: 15px;
+}
+
+#main #container-3 #btn-C #ref-C2 {
+  text-decoration: none;
+}
